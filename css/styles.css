@@ -1,0 +1,19 @@
+/*specific styles for bootsrap demo*/
+
+.gray-box{
+    border: 1px solid black;
+    background: gray;
+    height: 200px;
+    padding: 25px;
+}
+
+.black-box{
+    border: 1px solid black;
+    height: 200px;
+}
+
+.white-box{
+    height: 100px;
+    background: white;
+    border: 1px solid black;
+}

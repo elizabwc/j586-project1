@@ -1,0 +1,218 @@
+body{
+    font-family: Myriad Pro;
+}
+.mini{
+    background-color: #218fe7;
+    height: 40px;
+    font-family: myriad pro;
+    font-style: bold;
+    color: white;
+    text-align: right;
+    padding: 7px;
+}
+
+/**.gray-border{ /**gradient border
+    border: #cccccc solid 10px;
+    border-radius: 4px;
+}**/
+
+/*gray background behind content*/
+
+
+.nav{
+    background-image: url(sprites/menu-background.png);
+    height: 150px;
+    color: white;
+    padding-top: 65px;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+ul li{
+    display: inline;
+    margin: 20px;
+}
+
+a{
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #cccccc;
+}
+
+.content{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+h1{
+    font-family: Myriad Pro;
+    color: #3c9ff5;
+}
+
+h2{
+    color: #3c9ff5;
+    font-size: 20px;
+}
+
+.dashboard{
+    background-color: #33cc66;
+    height: 75px;
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-bottom: 7px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.dashboard-font{
+    color: white;
+}
+
+.announcements{
+    border: 1px #cccccc solid;
+    color: #fe7f13;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.comments{
+    border: .5px #cccccc solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #777777;
+}
+
+.arrows{
+    border: .5px #cccccc solid;
+    height: 42px;
+}
+
+#button{
+    height: 35px;
+    padding-top: 1px;
+}
+
+.tasks{
+    border: .5px #cccccc solid;
+}
+
+.task-box{
+    border-top:.5px #cccccc solid;
+    line-height: 3px;
+}
+
+.task-icons{
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: medium;
+    color: #3c9ff5;
+    padding: 4px;
+    float: right;
+}
+
+.circle{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    font-size:10px;
+    color: white;
+    line-height:20px;
+    text-align:center;
+    background-color: #33cc66;
+}
+
+.recommendations{
+    border-top: .5px #cccccc solid;
+    padding-left: 15px;
+    padding-top: 15px;
+    color: #777777;
+    line-height: 3px;
+}
+
+.rec-descriptions{
+    font-size: 10px;
+    line-height: 5px;
+    color: #777777;
+}
+
+hr{
+    color: #cccccc;
+    font-size: x-small;
+}
+
+.analytics{
+    border: .5px #cccccc solid;
+    padding-left: 20px;
+    color: #777777;
+}
+
+#channels-pic{
+    margin-left: 60px;
+}
+
+.social-media{
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.contacts{
+    border: .5px #cccccc solid;
+}
+
+.contact-box{
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    height: 210px;
+    width: 195px;
+    margin: 60px;
+    padding: 20px;
+    float: left;
+ 
+}
+
+
+
+.did-you-know{
+    border-top: .5px solid #cccccc;
+}
+
+.did-you-know-box{
+    background-color: #218fe7;
+    border-radius: 7px;
+    margin: 30px;
+    padding: 20px;
+    color: white;    
+}
+
+.bluebox{
+    background-color: #218fe7;
+}
+
+.whitebox{
+    background-color: white;
+    border-radius: 7px;
+    height: 150px;
+    margin: 40px;
+    padding: 20px;
+    background-image: url(sprites/messagemanagement.png);
+}
+
+#greengraph{
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+
+.footer-box{
+    background-color: #f1f1f1;
+    border-left: .5px solid #cccccc;
+    border-top: 1px solid white;
+    color: #cccccc;
+    margin-top: 10px;
+    padding-top: 5px;
+}
